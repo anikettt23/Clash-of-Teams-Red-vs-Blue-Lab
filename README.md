@@ -130,6 +130,15 @@ This lab successfully demonstrates:
 
 ---
 
+---
+
+# 📄 Final Report
+
+📥 Download Full Detailed Report Here:
+
+[Click to View Final Report](Aniket_Pawar_Clash_of_Teams_Final_Report (1).pdf)
+
+
 # ⚠ Disclaimer
 
 This project was conducted in a controlled lab environment for educational purposes only.
