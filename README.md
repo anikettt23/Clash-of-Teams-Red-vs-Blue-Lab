@@ -1,41 +1,32 @@
-# Clash-of-Teams-Red-vs-Blue-Lab
-Red Team vs Blue Team Simulation using Metasploitable 2 (vsftpd 2.3.4) | Nmap | Metasploit | Log Analysis | Firewall Hardening
-# 🔥 Red Team vs Blue Team – Breach & Defend Lab
-
-## 📌 Project Overview
-This project demonstrates a real-world cyber attack and defense simulation using Metasploitable 2.
-
-## 🛠 Tools Used
-- Nmap
-- Metasploit Framework
-- Linux Log Analysis
-- iptables Firewall
-
-## 🚨 Vulnerability Exploited
-vsftpd 2.3.4 Backdoor Vulnerability
-
-## ⚔ Red Team Phase
-- Performed Nmap reconnaissance
-- Identified vulnerable FTP service
-- Exploited using Metasploit
-- Gained root shell access
-
-## 🛡 Blue Team Phase
-- Analyzed auth.log for suspicious activity
-- Identified attacker IP
-- Implemented firewall rule
-- Verified remediation with Nmap
-
-## 🎯 Outcome
-Successfully demonstrated attack lifecycle and mitigation strategy.
-
----
-
-👨‍💻 Author: Aniket Pawar
-
 # 🔥 Red Team vs Blue Team – Breach & Defend Lab
 
 👨‍💻 Author: Aniket Pawar  
+🎯 Project Type: Attack & Defense Simulation  
+🛠 Environment: Kali Linux + Metasploitable 2  
+
+---
+
+# 📌 Executive Summary
+
+This project demonstrates a real-world cyber attack lifecycle against a vulnerable FTP service (vsftpd 2.3.4) and the defensive measures taken to detect and mitigate the attack.
+
+The objective was to simulate both:
+- 🔴 Red Team (Attacker)
+- 🔵 Blue Team (Defender)
+
+---
+
+# 🏗 Lab Architecture
+
+Attacker Machine: Kali Linux  
+Target Machine: Metasploitable 2  
+Network: Internal Virtual Network  
+
+---
+
+
+# 🔥 Red Team vs Blue Team – Breach & Defend Lab
+
 
 ---
 
@@ -96,15 +87,50 @@ All ports filtered after firewall rule implementation.
 
 ---
 
-## 🛠 Tools Used
+# 🧠 MITRE ATT&CK Mapping
+
+| Phase | Technique |
+|-------|-----------|
+| Reconnaissance | Active Scanning |
+| Initial Access | Exploit Public-Facing Application |
+| Privilege Escalation | Command Shell |
+| Defense Evasion | Abuse of Backdoor Service |
+
+---
+
+# 🛠 Tools Used
+
 - Nmap
 - Metasploit Framework
 - Linux Log Analysis
 - iptables Firewall
+- VirtualBox / VMware
 
 ---
 
-## 🎯 Outcome
-Successfully demonstrated full attack lifecycle and defensive mitigation.
+# 📊 Skills Demonstrated
 
+✔ Vulnerability Assessment  
+✔ Exploitation Techniques  
+✔ Log Analysis  
+✔ Incident Response  
+✔ Firewall Configuration  
+✔ Attack Lifecycle Understanding  
+
+---
+
+# 🎯 Outcome
+
+This lab successfully demonstrates:
+
+- Complete attack chain execution
+- Log-based detection
+- Defensive remediation
+- Validation of security controls
+
+---
+
+# ⚠ Disclaimer
+
+This project was conducted in a controlled lab environment for educational purposes only.
 
