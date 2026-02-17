@@ -1,6 +1,6 @@
 # 🔥 Red Team vs Blue Team – Breach & Defend Lab
 
-👨‍💻 Author: Aniket Pawar  
+👨‍💻 Author: Aniket Pandurang Pawar  
 🎯 Project Type: Attack & Defense Simulation  
 🛠 Environment: Kali Linux + Metasploitable 2  
 
